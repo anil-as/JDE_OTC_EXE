@@ -7,7 +7,7 @@ a GitHub account to download the installer or receive updates.
 
 Download **OTC48.exe** from the latest published release and run it. Choose your
 installation folder. Existing users should choose their current OTC48 folder;
-no uninstall is needed. After setup finishes, close setup and open the desktop
+no uninstall is needed. After setup finishes, close setup and open the OTC48 desktop
 shortcut. Workbooks, reports, settings, and saved JDE login are preserved.
 
 If no release has been published yet, open `OTC48.exe` in this repository and
@@ -15,7 +15,7 @@ use GitHub's **Download raw file** button to download the installer.
 
 ## Files to upload for a release
 
-Current version: **1.0.10**
+Current version: **1.0.11**
 
 | File | Purpose | Needed by |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ user guide are optional support files that can remain local.
 ## Publish the first release
 
 1. Open [Create a release](https://github.com/anil-as/JDE_OTC_EXE/releases/new).
-2. Create tag **v1.0.10** targeting **main**. Use title **OTC48 1.0.10**.
+2. Create tag **v1.0.11** targeting **main**. Use title **OTC48 1.0.11**.
 3. Attach the two files listed above using the release asset upload area.
 4. Publish as a stable release and select **Set as the latest release** if shown.
    Do not select prerelease or leave the release as a draft.
