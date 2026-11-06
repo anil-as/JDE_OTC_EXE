@@ -2,9 +2,9 @@
   "schema": 1,
   "app": "OTC48",
   "platform": "win-x64",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "updater": 1,
   "asset": "OTC48.exe",
-  "size": 249344,
-  "sha256": "1290d11f9411f63077b54eeea4cf3f79831fc8cab1cc2d1eae22e66e4be4e1e7"
+  "size": 251904,
+  "sha256": "4732945a06a4367ad989a53a378fa5e90e7005662e802850974cf8ab472f7b02"
 }

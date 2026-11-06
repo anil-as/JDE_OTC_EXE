@@ -15,7 +15,7 @@ use GitHub's **Download raw file** button to download the installer.
 
 ## Files to upload for a release
 
-Current version: **1.0.13**
+Current version: **1.0.14**
 
 | File | Purpose | Needed by |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ user guide are optional support files that can remain local.
 ## Publish the first release
 
 1. Open [Create a release](https://github.com/anil-as/JDE_OTC_EXE/releases/new).
-2. Create tag **v1.0.13** targeting **main**. Use title **OTC48 1.0.13**.
+2. Create tag **v1.0.14** targeting **main**. Use title **OTC48 1.0.14**.
 3. Attach the two files listed above using the release asset upload area.
 4. Publish as a stable release and select **Set as the latest release** if shown.
    Do not select prerelease or leave the release as a draft.
@@ -66,4 +66,4 @@ access-controlled company hosting if those contents must remain confidential.
 
 New working and demo workbooks use their creation day for Order_Date, Requested_Date, and Date_Accepted (MM/DD/YYYY). Existing workbooks keep their saved dates.
 
-Version 1.0.13 requires MM/DD/YYYY date text (11/06/2026 means November 6, 2026). New templates use Text date columns and entry guidance. Converted Excel dates or serial numbers stop validation before JDE opens. Existing saved workbooks are preserved; already misinterpreted dates must be corrected to their intended values.
+Version 1.0.14 prepares each user's existing saved workbook after upgrading. Dates display and save as MM/DD/YYYY. Close Excel and reopen OTC48 after setup; confirm the corrected or stored date shown in the repair prompt. OTC48 updates that workbook in place, saves an exact backup beside it, and preserves other input values and explicit date text. No replacement workbook or uninstall is needed. Older empty templates receive current Text date formatting. Cancel leaves the workbook unchanged.
