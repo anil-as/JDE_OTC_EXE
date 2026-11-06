@@ -15,7 +15,7 @@ use GitHub's **Download raw file** button to download the installer.
 
 ## Files to upload for a release
 
-Current version: **1.0.11**
+Current version: **1.0.12**
 
 | File | Purpose | Needed by |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ user guide are optional support files that can remain local.
 ## Publish the first release
 
 1. Open [Create a release](https://github.com/anil-as/JDE_OTC_EXE/releases/new).
-2. Create tag **v1.0.11** targeting **main**. Use title **OTC48 1.0.11**.
+2. Create tag **v1.0.12** targeting **main**. Use title **OTC48 1.0.12**.
 3. Attach the two files listed above using the release asset upload area.
 4. Publish as a stable release and select **Set as the latest release** if shown.
    Do not select prerelease or leave the release as a draft.
@@ -63,3 +63,5 @@ tags may include the earlier optional guide/checksum files as well.
 
 The public EXE itself contains extractable automation code and templates. Use
 access-controlled company hosting if those contents must remain confidential.
+
+New working and demo workbooks use their creation day for Order_Date, Requested_Date, and Date_Accepted (MM/DD/YYYY). Existing workbooks keep their saved dates.
